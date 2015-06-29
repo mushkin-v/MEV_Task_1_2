@@ -1,6 +1,8 @@
+[![Build Status](https://travis-ci.org/mushkin-v/MEV_Task_1_2.svg?branch=develop)](https://travis-ci.org/mushkin-v/MEV_Task_1_2)
 #TASK №1, №2
 ---
 №1 It is a demo of console program which calculate mathematical expressions.
+
 №2 It is a demo of console program which parses and saves images from url.
 
 >Author [Mushkin Vitaliy].  
