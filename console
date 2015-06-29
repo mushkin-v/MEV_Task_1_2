@@ -1,0 +1,13 @@
+#!/usr/bin/env php
+<?php
+
+require_once __DIR__ . '/vendor/autoload.php';
+
+use Console\MathCalcCommand;
+use Console\ImageCrawlerCommand;
+use Symfony\Component\Console\Application;
+
+$application = new Application();
+$application->add(new MathCalcCommand());
+$application->add(new ImageCrawlerCommand());
+$application->run();
